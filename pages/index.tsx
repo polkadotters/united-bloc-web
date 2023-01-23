@@ -89,7 +89,7 @@ export default function Home() {
                 <div className="flex flex-wrap">
                   {members.map(m => {
                     return (
-                      <div className="w-[200px] pb-2">
+                      <div className="w-[200px] pb-2" key={m.name}>
                         <Link href={`https://${m.website}`} target="_blank">
                           <div className="text-stone-400 font-bold">
                             {m.name}
