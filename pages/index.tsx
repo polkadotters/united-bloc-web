@@ -12,6 +12,11 @@ const members = [
     website: "truestaking.com"
   },
   {
+    name: "CertHum",
+    location: "USA",
+    website: "certhum.com"
+  },
+  {
     name: "Blockshard",
     location: "Switzerland",
     website: "letzbake.com"
@@ -68,7 +73,7 @@ export default function Home() {
       {doneLoading && (
         <>
           <Layout>
-            <div className="pr-[7%] pl-[7%] md:pr-[15%] md:pl-[15%] pt-[10%]">
+            <div className="pr-[7%] pl-[7%] md:pr-[15%] md:pl-[15%] pt-[7%]">
               <div className="max-w-[1000px] rounded-md shadow-md bg-secondary-bg p-5">
                 <div className="text-4xl font-bold text-red-500">United Bloc</div>
                 <div className="text-stone-400 mt-2">
@@ -80,6 +85,9 @@ export default function Home() {
                 <div className="text-stone-400 mt-2">
                   <div>As individuals, UnitedBloc members bring community value with informational websites, database snapshots, utilities, security recommendations, and monitoring tools. Additionally, members are active participants in community forums and governance.</div>
                   <div className="mt-2">As a group, UnitedBloc can bring even more value and our first community offering is free public RPC. Using eight bare metal geographically distributed servers, UnitedBloc RPC is globally service balanced via geoDNS, regionally load balanced via OpenResty, and serves moonbase, moonriver and moonbeam chains.  See <Link href="https://medium.com/unitedbloc/unitedbloc-rpc-c84972f69457" target="_blank">https://medium.com/unitedbloc/unitedbloc-rpc-c84972f69457</Link></div>
+                  <div className="mt-2">
+                    <Link href="/privacy-statement" target="_blank" className="underline">Our Privacy Statement</Link>
+                  </div>
                 </div>
               </div>
               <div className="max-w-[1000px] rounded-md shadow-md bg-secondary-bg p-5 mt-[5%]">
