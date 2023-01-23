@@ -113,7 +113,7 @@ export default function Home() {
               </div>
             </div>
           </Layout>
-          <div className="w-full max-w-[125px] aspect-square fixed bottom-[15px] left-[15px]">
+          <div className="w-full max-w-[125px] aspect-square fixed bottom-[15px] left-[15px] -z-50">
             <Image src="/logo.webp" alt="Main logo" layout="fill" />
           </div>
         </>
