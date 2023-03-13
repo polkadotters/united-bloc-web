@@ -79,6 +79,9 @@ export default function Home() {
                 <div className="text-stone-400 mt-2">
                   <i>“The whole is greater than the sum of its parts”.</i> This truth resonates with the Moonbeam collator community to intentionally collaborate in pursuit of greater community value. United in a shared objective to bring value to our community, a bloc of collators have formed a collective identity named “UnitedBloc”. Our charter is to  leverage the power of a group for the good of the Moonbeam community.  See <Link href="https://medium.com/unitedbloc/unitedbloc-feaaf55f3a4e" target="_blank">https://medium.com/unitedbloc/unitedbloc-feaaf55f3a4e</Link>
                 </div>
+                <div className="mt-2">
+                  Contact us: contact@unitedbloc.com
+                </div>
               </div>
               <div className="max-w-[1000px] rounded-md shadow-md bg-secondary-bg p-5 mt-[5%]">
                 <div className="text-4xl font-bold text-red-500">Our Value</div>
