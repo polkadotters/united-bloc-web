@@ -19,7 +19,7 @@ const members = [
   {
     name: "Blockshard",
     location: "Switzerland",
-    website: "letzbake.com"
+    website: "Blockshard.io"
   },
   {
     name: "BloClick",
@@ -48,7 +48,7 @@ const members = [
   }, {
     name: "Polkadotters",
     location: "Czech Republic",
-    website: "polkadotters.medium.com/polkadotters-who-we-are-5e843e3c99bb"
+    website: "polkadotters.com"
   }, {
     name: "Crifferent",
     location: "Germany",
@@ -80,7 +80,7 @@ export default function Home() {
                   <i>“The whole is greater than the sum of its parts”.</i> This truth resonates with the Moonbeam collator community to intentionally collaborate in pursuit of greater community value. United in a shared objective to bring value to our community, a bloc of collators have formed a collective identity named “UnitedBloc”. Our charter is to  leverage the power of a group for the good of the Moonbeam community.  See <Link href="https://medium.com/unitedbloc/unitedbloc-feaaf55f3a4e" target="_blank">https://medium.com/unitedbloc/unitedbloc-feaaf55f3a4e</Link>
                 </div>
                 <div className="text-stone-400 mt-2">
-                  Contact us: contact@unitedbloc.com
+                  <Link href="https://linktr.ee/unitedbloc" target="_blank" className="underline">Our Linktree</Link>
                 </div>
               </div>
               <div className="max-w-[1000px] rounded-md shadow-md bg-secondary-bg p-5 mt-[5%]">
