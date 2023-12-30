@@ -7,9 +7,9 @@ import { useState } from "react"
 
 const members = [
   {
-    name: "TrueStaking",
+    name: "Paradoxx",
     location: "USA",
-    website: "truestaking.com"
+    website: "paradoxxllc.com"
   },
   {
     name: "CertHum",
