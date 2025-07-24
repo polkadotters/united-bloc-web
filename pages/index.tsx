@@ -25,39 +25,43 @@ const members = [
     name: "BloClick",
     location: "Spain",
     website: "bloclick.com"
-  }, {
+  }, 
+  {
     name: "BrightlyStake",
     location: "India",
     website: "brightlystake.com"
-  }, {
+  }, 
+  {
     name: "GPValidator",
     location: "Portugal",
     website: "gpvalidator.com"
-  }, {
-    name: "Hetavalidation",
-    location: "Australia",
-    website: "hetavalidation.com"
-  }, {
+  }, 
+  {
     name: "Legend",
     location: "United Arab Emirates",
     website: "t.me/+RwCajXBybU0zMTQ8"
-  }, {
+  }, 
+  {
     name: "PathrockNetwork",
     location: "Germany",
     website: "pathrocknetwork.org"
-  }, {
+  }, 
+  {
     name: "Polkadotters",
     location: "Czech Republic",
     website: "polkadotters.com"
-  }, {
+  }, 
+  {
     name: "Crifferent",
     location: "Germany",
-    website: "crifferent.de/"
-  }, {
+    website: "crifferent.de"
+  }, 
+  {
     name: "StakeBaby",
     location: "Greece",
     website: "stakebaby.com"
-  }, {
+  }, 
+  {
     name: "StakeSquid",
     location: "Georgia",
     website: "stakesquid.com"
@@ -87,7 +91,7 @@ export default function Home() {
                 <div className="text-4xl font-bold text-red-500">Our Value</div>
                 <div className="text-stone-400 mt-2">
                   <div>As individuals, UnitedBloc members bring community value with informational websites, database snapshots, utilities, security recommendations, and monitoring tools. Additionally, members are active participants in community forums and governance.</div>
-                  <div className="mt-2">As a group, UnitedBloc can bring even more value and our first community offering is free public RPC. Using eight bare metal geographically distributed servers, UnitedBloc RPC is globally service balanced via geoDNS, regionally load balanced via OpenResty, and serves moonbase, moonriver and moonbeam chains.  See <Link href="https://medium.com/unitedbloc/unitedbloc-rpc-c84972f69457" target="_blank">https://medium.com/unitedbloc/unitedbloc-rpc-c84972f69457</Link></div>
+                  <div className="mt-2">As a group, UnitedBloc can bring even more value and our first community offering is free public RPC. Using eight bare metal geographically distributed servers, UnitedBloc RPC is globally service balanced via geoDNS, regionally load balanced via OpenResty, and serves Moonbase, Monriver and Moonbeam chains.  See <Link href="https://medium.com/unitedbloc/unitedbloc-rpc-c84972f69457" target="_blank">https://medium.com/unitedbloc/unitedbloc-rpc-c84972f69457</Link></div>
                   <div className="mt-2">
                     <Link href="/privacy-statement" target="_blank" className="underline">Our Privacy Statement</Link>
                   </div>
@@ -95,7 +99,7 @@ export default function Home() {
               </div>
               <div className="max-w-[1000px] rounded-md shadow-md bg-secondary-bg p-5 mt-[5%]">
                 <div className="text-4xl font-bold text-red-500">Members</div>
-                <div className="text-stone-400 mt-2">UnitedBloc is composed of 13 independent collators from 4 continents and 11 countries. Each member brings unique skills, experience, and perspective.</div>
+                <div className="text-stone-400 mt-2">UnitedBloc is composed of 12 independent collators from 4 continents and 11 countries. Each member brings unique skills, experience, and perspective.</div>
                 <div className="mt-2 mb-2 bg-stone-700 h-[2px]"></div>
                 <div className="flex flex-wrap">
                   {members.map(m => {
